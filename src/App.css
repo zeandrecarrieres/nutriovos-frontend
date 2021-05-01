@@ -1,0 +1,119 @@
+/* Global styles settings */
+* {
+  list-style: none;
+  text-decoration: none;
+  /* box-sizing: border-box; */
+}
+
+* :focus {
+  outline: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  font-size: .8rem;
+} 
+
+button {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: row
+}
+
+input, select, button {
+  padding: .5rem 1rem;
+  font-size: 0.8rem;
+  margin: 3px;
+  border-radius: 8px;
+  border: 0;
+  background: #ffffff;
+  color: #959595;
+  margin:0.5rem;
+}
+
+
+input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+  color: #959595;
+}
+
+.little-field {
+  max-width: 5rem;
+}
+
+.select-field{
+  width: 20rem;
+}
+
+
+button {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  margin: 3px;
+  border-radius: 1rem;
+  border: 0;
+  background: #f59709;
+  color: white;
+}
+
+button:hover {
+  background: #ff5e00;
+ 
+}
+
+.del-btn {
+  padding: .3rem .7rem;
+  font-size: 0.8rem;
+  background: #f52509;
+  
+  
+}
+
+.edit-btn {
+  padding: .3rem .7rem;
+  font-size: 0.8rem;
+  background: #ffda09;
+  border-radius: 1rem;
+  color: white;
+  
+}
+
+h1 {
+  color: #808080 ;
+  justify-content: flex-start;
+  font-weight: 300;
+}
+
+
+
+/* +++++++++++ CSS HOME ++++++++++++ */
+
+.home {
+  height: 91vh;
+  display: flex;
+  flex: 1;
+  justify-content:center;
+  margin-top: 3rem ;
+  flex-direction:column;
+  align-items:center;
+  background: #F5F5F5;
+}
+
+
+hr {
+  border: 1px solid rgba(177, 177, 177, 0.226);
+  margin: 1rem 0;
+  
+  
+}
+

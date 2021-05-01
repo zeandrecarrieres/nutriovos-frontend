@@ -1,0 +1,214 @@
+.logo-top {
+  width: 40%;
+  margin: 3rem 0;
+
+}
+
+.mobile-menu{
+  display: none;
+} 
+
+
+.side-menu {
+  /* height: 90.5vh; */
+  margin: 3rem 0 0 3rem;
+  background: #f59709;
+  width: 15%;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem 0 0 1.5rem;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70%;
+}
+
+.side-menu ul {
+ /* display: flex;
+ flex-direction: column;
+ width: 70%; */
+  width: 80%;
+ padding: 0px;
+ 
+}
+
+.side-menu ul li {
+  flex-direction: column;
+  margin: .5rem 0;
+  
+  
+}
+
+.menu-item {
+    display: flex;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0);
+  padding: 0.5rem 1rem;
+  justify-content: left;
+  transition: 0.3s;
+  
+}
+
+.menu-item:hover {
+    border: 1px solid white;
+    border-radius: 1.8rem;
+  color: white;
+  background: rgba(250, 250, 250, 0.055);
+  
+}
+
+.sign-out {
+  background: #e69200;
+  border-radius: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 2rem;
+  width: 40%;
+  transition: 0.8s;
+}
+.sign-out:hover {
+  background: #e93407a1;
+  border-radius: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 2rem;
+  width: 60%;
+}
+
+.menu-container img {
+  width: 1rem;
+  margin-right: 1rem;
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 1290px){
+   .mobile-menu{
+    display: none;
+  } 
+
+
+  .logo-top{
+    margin: 1rem 0;
+  }
+  
+  .side-menu{
+    margin: 2rem 0 0 2rem;
+  }
+
+  .side-menu ul {
+    width: 100%;
+  }
+
+  .menu-container img{
+    padding-left: 1rem;
+  }
+
+  .sign-out{
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .mobile-menu{
+    display: none;
+  } 
+
+
+  .side-menu{
+    margin: 0rem;
+    border-radius: initial;
+  }
+
+  .menu-item{
+    padding: 0.5rem 0rem;
+  }
+
+  .menu-container img{
+   
+    padding-left:0.5rem;
+    margin-right: 0.3rem;
+  }
+
+  .sign-out{
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 699px){
+  .mobile-menu{
+    display: none;
+  } 
+
+  .logo-top {
+    width: 70%;
+  }
+  
+  .side-menu{
+    margin: 0rem;
+    border-radius: initial;
+  }
+
+  .menu-item{
+    padding: 0.5rem 0rem;
+    text-align: left;
+  }
+
+  .menu-item:hover{
+    border: none;
+    border-radius:initial;
+  }
+
+  .menu-container h3 {
+    text-align: left;
+  }
+
+  .menu-container img{
+    display: none;
+  }
+
+  .menu-container img{
+    padding-left:0.5rem;
+    margin-right: 0.3rem;
+  }
+
+  .sign-out{
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 415px){
+.App {
+  flex-direction: column;
+}
+.side-menu {
+  display: none;
+}
+
+.mobile-menu{
+  display: flex;
+  background:red;
+  height:15vh;
+}
+
+.menu-header {
+  width:100%;
+ 
+  
+}
+
+.menu-header ul {
+  display: flex;
+  justify-content:space-around;
+ padding: 0;
+}
+
+
+.burguer-menu-item {
+
+  color: white;
+}
+
+}

@@ -1,0 +1,49 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-clients {
+    height: 91vh;
+    display: flex;
+    flex: 1;
+    margin-top: 3rem ;
+    flex-direction:column;
+    align-items:center;
+    background: #F5F5F5;
+  }
+
+  .fa {
+    color: rgb(236, 139, 12);
+  }
+
+  .fad {
+    background: none;
+    color: rgb(255, 0, 0);
+    font-size: 0.8rem;
+  }
+
+  @media only screen and (max-width: 1300px){
+    .list-clients{
+      margin-top: 2rem;
+    }
+  
+  }
+
+  @media only screen and (max-width: 900px){
+    .list-clients{
+    height: 100vh;
+    margin-top: 0rem;
+    justify-content: flex-start;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 415px){
+  .list-clients{
+    flex: initial;
+  }
+}

@@ -1,0 +1,166 @@
+
+.transaction-item {
+  font-size: .9rem;
+  color: grey;
+  font-weight: 300;
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+  .champ-date {
+    background: white;
+    width: 15rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-type {
+    background: white;
+    width: 2rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-product {
+    background: white;
+    width: 20rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+    text-align: left;
+  
+  }
+  .champ-quantity {
+    background: white;
+    width: 2rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-price {
+    background: white;
+    width: 4rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-price-total {
+    background: white;
+    width: 6rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+
+@media only screen and (max-width: 900px){
+  
+.transaction-item {
+  font-size:0.8rem;
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.champ-date {
+  background: white;
+  width: 3rem;
+  margin: 2px;
+  padding: .5rem 1rem;
+
+}
+.champ-type {
+  background: white;
+  width: 1rem;
+  margin: 2px;
+  padding: .5rem 1rem;
+
+}
+.champ-product {
+  background: white;
+  width: 10rem;
+  margin: 2px;
+  padding: .5rem 1rem;
+
+}
+.champ-quantity {
+  background: white;
+  width: 1rem;
+  margin: 2px;
+  padding: .5rem 1rem;
+
+}
+.champ-price {
+  background: white;
+  width: 2rem;
+  margin: 2px;
+  padding: .5rem 1rem;
+
+}
+.champ-price-total {
+  background: white;
+  width: 4rem;
+  margin: 2px;
+  padding: .5rem 1rem;
+
+}
+
+}
+
+@media only screen and (max-width: 414px){
+  .transactions-list{
+    width: 100vw;
+  }
+
+  .transaction-item {
+    font-size:0.8rem;
+    display: flex;
+    flex: 1;
+    margin: 0;
+  }
+  
+  .champ-date {
+   
+    width: 1.5rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-type {
+    
+    width: 0.2rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-product {
+    
+    width: 6rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-quantity {
+    
+    width: 0.5rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-price {
+  
+    width: 2rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+  .champ-price-total {
+   
+    width: 4rem;
+    margin: 2px;
+    padding: .5rem 1rem;
+  
+  }
+
+
+
+}

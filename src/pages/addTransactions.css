@@ -1,0 +1,89 @@
+.add-transactions {
+    height: 91vh;
+    background: #F5F5F5;
+    margin-top: 3rem ;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    flex: 1;
+    
+  }
+
+  
+  .transactions-list {
+      width: 100%;
+  }
+
+  .transaction-form {
+      display: flex;
+      align-items: center;
+      
+  }
+
+  .form-cjt-group {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content:center;
+    
+}
+  .form-cjt {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+  }
+
+  .form-cjt label {
+      margin-left: 1.2rem;
+      color: #f59709;
+  }
+
+  .add-quantity {
+      width: 2rem;
+  }
+
+  h4 {
+      font-weight: 300;
+  }
+
+  @media only screen and (max-width: 1300px){
+
+    .transaction-form {
+      flex-direction: column;
+      align-items: flex-end;
+      
+  }
+    .add-transactions{
+      margin-top: 2rem;
+    }
+  
+  }
+
+  @media only screen and (max-width: 900px){
+    .add-transactions{
+    height: 100vh;
+    margin-top: 0rem;
+
+    }
+  
+  }
+
+@media only screen and (max-width: 415px){
+  .add-transactions {
+    flex: initial;
+  }
+
+  .form-cjt-group{
+    flex-direction: column;
+  }
+  .form-cjt{
+    width:100%;
+    
+  }
+
+  .transaction-item li{
+    overflow: hidden;
+  }
+}

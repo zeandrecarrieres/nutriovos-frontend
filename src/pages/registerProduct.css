@@ -1,0 +1,32 @@
+.add-product{
+    height: 91vh;
+    display: flex;
+    flex: 1;
+    justify-content:center;
+    margin-top: 3rem ;
+    flex-direction:column;
+    align-items:center;
+    background: #F5F5F5;
+  }
+  
+  @media only screen and (max-width: 1300px){
+    .add-product{
+      margin-top: 2rem;
+    }
+  
+  }
+
+  @media only screen and (max-width: 900px){
+    .add-product{
+    height: 100vh;
+    margin-top: 0rem;
+    justify-content: flex-start;
+    }
+  
+  }
+
+  @media only screen and (max-width: 415px){
+    .add-product{
+      flex: initial;
+    }
+  }

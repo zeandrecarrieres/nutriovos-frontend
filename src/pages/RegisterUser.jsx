@@ -15,7 +15,7 @@ function RegisterUser() {
     //await fetch("https://eggerp-backend.herokuapp.com/user", {
     await fetch("https://nutriovos-backend.herokuapp.com/user", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+     // headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         type,
         register_number,

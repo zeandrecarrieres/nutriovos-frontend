@@ -21,7 +21,7 @@ function App() {
     (
         async () => {
             //const response = await fetch('https://eggerp-backend.herokuapp.com/user', {
-            const response = await fetch('http://localhost:3001/user', {
+            const response = await fetch('https://nutriovos-frontend.herokuapp.com/user', {
                 headers: {'Content-Type': 'application/json'},
                 credentials: 'include',
                 mode: 'cors',

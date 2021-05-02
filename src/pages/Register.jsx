@@ -16,7 +16,7 @@ function Register() {
 
   const submit = async (e) => {
     e.preventDefault();
-    await fetch("http://localhost:3001/client", {
+    await fetch("https://nutriovos-backend.herokuapp.com/client", {
       //await fetch("https://eggerp-backend.herokuapp.com/client", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

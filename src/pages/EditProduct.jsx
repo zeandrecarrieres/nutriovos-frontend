@@ -19,7 +19,7 @@ function EditProduct() {
   // console.log(product_id);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/product/${product_id.id}`)
+    fetch(`https://nutriovos-backend.herokuapp.com//product/${product_id.id}`)
       .then((response) => response.json())
       .then((data) => {
         setProduct(data)
@@ -37,7 +37,7 @@ function EditProduct() {
 
   const submit = async (e) => {
     e.preventDefault()
-    await fetch(`http://localhost:3001/product/${product_id.id}`, {
+    await fetch(`https://nutriovos-backend.herokuapp.com//product/${product_id.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

@@ -18,7 +18,7 @@ function AddTransaction() {
 
   const submit = async (e) => {
     e.preventDefault();
-    await fetch("http://localhost:3001/transaction", {
+    await fetch("https://nutriovos-backend.herokuapp.com//transaction", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -34,7 +34,7 @@ function AddTransaction() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:3001/product/")
+    fetch("https://nutriovos-backend.herokuapp.com//product/")
       .then((response) => response.json())
       .then((data) => SetOptions(data))
       .catch((error) => console.log(error));

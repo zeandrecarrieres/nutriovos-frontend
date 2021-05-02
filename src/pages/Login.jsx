@@ -17,7 +17,7 @@ const Login = () => {
     
 
     //await fetch("https://eggerp-backend.herokuapp.com/user/login", {
-    await fetch("http://localhost:3001/user/login", {
+    await fetch("https://nutriovos-backend.herokuapp.com/user/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
@@ -29,7 +29,7 @@ const Login = () => {
     });
 
     //const response = await fetch("https://eggerp-backend.herokuapp.com/user", {
-    const response = await fetch("http://localhost:3001/user", {
+    const response = await fetch("https://nutriovos-backend.herokuapp.com/user", {
 
       headers: { "Content-Type": "application/json" },
       credentials: "include",

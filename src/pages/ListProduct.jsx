@@ -12,13 +12,13 @@ function ListProduct() {
     const [count, setCount] = useState(0);
 
     useEffect(()=>{
-        fetch('http://localhost:3001/product/')
+        fetch('https://nutriovos-backend.herokuapp.com/product/')
             .then(response => response.json())
             .then(data=> setProducts(data))
     },[count])
 
 const deleteProduct = async (e) => {
-    await fetch("http://localhost:3001/product/"+e, {
+    await fetch("https://nutriovos-backend.herokuapp.com/product/"+e, {
         method: "DELETE",
 
     })

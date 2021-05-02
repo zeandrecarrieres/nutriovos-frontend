@@ -9,7 +9,7 @@ const User = () => {
     const {user, setUser} = useContext(UserContext);
     
     const logout = async () => {
-        await fetch('http://localhost:3001/user/logout', {
+        await fetch('https://nutriovos-backend.herokuapp.com/user/logout', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             credentials: 'include',
